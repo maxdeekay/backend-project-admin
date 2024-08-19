@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/consumable.css">
+    <script src="js/admin.js" defer></script>
+    <title>Admin</title>
+</head>
+<header>
+    <button id="logout-button" class="button">Logga ut</button>
+</header>
+<body>
+    <h1>Meny</h1>
+    <button id="add-button" class="button">LÄGG TILL NY</button>
+    <div id="consumable-container">
+    </div>
+
+    <div id="create-window">
+        <form>
+            <label for="title">Titel</label>
+            <input type="text" id="title" name="title">
+            <label for="ingredients">Ingredienser</label>
+            <textarea id="ingredients" name="ingredients"></textarea>
+            <label for="price">Pris</label>
+            <input type="text" id="price" name="price">
+            <input type="submit" value="SPARA">
+        </form>
+
+        <button id="cancel-button" class="button">AVBRYT</button>
+    </div>
+
+    <div id="message">
+    </div>
+</body>
+</html>
