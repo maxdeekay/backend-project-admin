@@ -68,7 +68,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
     cursor: pointer;
-    background-color: rgb(156, 214, 156);
 }
 
 label {

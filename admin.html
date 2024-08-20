@@ -18,20 +18,18 @@
     </div>
 
     <div id="create-window">
-        <form>
-            <label for="title">Titel</label>
+        <form id="creation-form">
+            <label for="title">Titel<span id="title-error-text" class="error-text"></span></label>
             <input type="text" id="title" name="title">
-            <label for="ingredients">Ingredienser</label>
+            <label for="ingredients">Ingredienser<span id="ingredients-error-text" class="error-text"></span><p class="small-text">(separerade med ett kommatecken)</p></label>
             <textarea id="ingredients" name="ingredients"></textarea>
-            <label for="price">Pris</label>
+            <label for="price">Pris<span id="price-error-text" class="error-text"></span></label>
             <input type="text" id="price" name="price">
+            <input type="hidden" id="id" name="id" value="">
             <input type="submit" value="SPARA">
         </form>
 
         <button id="cancel-button" class="button">AVBRYT</button>
-    </div>
-
-    <div id="message">
     </div>
 </body>
 </html>
