@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/consumable.css">
     <script src="js/admin.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="/images/icon.webp">
     <title>Admin</title>
 </head>
-<header>
-    <button id="logout-button" class="button">Logga ut</button>
-</header>
 <body>
+    <header>
+        <button id="logout-button" class="button">Logga ut</button>
+    </header>
     <h1>Meny</h1>
     <button id="add-button" class="button">LÄGG TILL NY</button>
     <div id="consumable-container">
@@ -21,7 +22,8 @@
         <form id="creation-form">
             <label for="title">Titel<span id="title-error-text" class="error-text"></span></label>
             <input type="text" id="title" name="title">
-            <label for="ingredients">Ingredienser<span id="ingredients-error-text" class="error-text"></span><p class="small-text">(separerade med ett kommatecken)</p></label>
+            <label for="ingredients">Ingredienser<span id="ingredients-error-text" class="error-text"></span></label>
+            <p class="small-text">(separerade med ett kommatecken)</p>
             <textarea id="ingredients" name="ingredients"></textarea>
             <label for="price">Pris<span id="price-error-text" class="error-text"></span></label>
             <input type="text" id="price" name="price">

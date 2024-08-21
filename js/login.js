@@ -15,7 +15,7 @@ window.onload = () => {
 }
 
 async function loginUser(username, password) {
-    const url = "http://127.0.0.1:3000/login";
+    const url = "https://backend-project-api.onrender.com/login";
 
     const response = await fetch(url, {
         method: "POST",

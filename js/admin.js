@@ -1,6 +1,6 @@
 "use strict";
 
-const baseURL = "http://127.0.0.1:3000";
+const baseURL = "https://backend-project-api.onrender.com";
 
 window.onload = async () => {
     // check if user is authorized

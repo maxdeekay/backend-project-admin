@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .button {
@@ -102,6 +103,7 @@ textarea:focus {
 
 .small-text {
     font-style: italic;
+    margin-top: -10px;
 }
 
 .consumable>div {
